@@ -1,0 +1,39 @@
+.hadoken_ani {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.slidercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* slider itself */
+.slider{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 10px;
+    border-radius: 3px;
+    background: rgb(248, 105, 52);
+    outline: none;
+    transition: opacity 0.2s;
+}
+/* slider handle */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    background: black;
+    cursor: pointer;
+}
